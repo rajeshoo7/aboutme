@@ -1,26 +1,38 @@
 # aboutme
 
-## Rajesh Kammari
+Rajesh Kammari
+
+I'm pursuing MS in ACS at NWMSU enrolled for the Spring 2019. I have done my bachelors of engineering in Computer Science,Osmania University India and worked for Accenture for 14 months as a Application Development Associate.
+
+
 ## Repository Links
 
-- [My GitHub Repository](https://github.com/rajeshoo7 "opens my github profile")
-
+- [My GitHub Repository](https://github.com/rajeshoo7 "opens my github profile") 
 - [My Hosted Page on Github](https://rajeshoo7.github.io/aboutme/ "opens the hosted page on github")
 
 - [The Source Page for this Webpage](https://github.com/rajeshoo7/aboutme "Opens the Source Page on Github")
 
 ## About
 
-This repository is used to give information about the Github work I will be doing as a part of student and professional career.
+This repository is used to give information about the various tasks done as a part of Github page development using Markdown.
 
 ## Recommended Tools
 
-The following tools and languages are required to publish a repo with GitHub pages
+The following tools are required to publish a repo with GitHub pages
 
-- [GitHub](https://desktop.github.com/ "Opens the GitHub Software download")
-- [Tortoisegit](https://tortoisegit.org/ "Opens Tortoisegit Software Webpage")
-- [MarkDown Language](https://www.markdownguide.org/ "Opens the Markdown Guide Page")
-- [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html "Opens the Notepad Software page to dowload")
+- [GitHub](https://desktop.github.com/ "Opens the GitHub Software download") - Git is a distributed version control system for tracking changes in source code during software development and designed for coordinating work among developers
+  
+- [Tortoisegit](https://tortoisegit.org/ "Opens Tortoisegit Software Webpage") - TortoiseGit is a free software a Git revision control client, implemented as a Windows shell extension and based on TortoiseSVN. 
+  
+- [MarkDown Language](https://www.markdownguide.org/ "Opens the Markdown Guide Page") - Markdown is a lightweight markup language with plain text formatting syntax.
+
+- [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html "Opens the Notepad Software page to dowload") - A powerful text editor.
+
+The following languages required for the web developement
+- MarkDown - a light weight markup language for web development
+- HTML - Hypertext Markup Language
+- CSS - Cascading Style Sheets
+- JavaScript - Scripting Language 
 
 ## Recommended Resources
 
