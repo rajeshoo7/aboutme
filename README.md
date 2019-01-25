@@ -20,3 +20,8 @@ The following tools and languages are required to publish a repo with GitHub pag
 - [MarkDown Language](https://www.markdownguide.org/ "Opens the Markdown Guide Page")
 - [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html "Opens the Notepad Software page to dowload")
 
+## Recommended Resources
+
+1. [Check out this youtube video](https://www.youtube.com/watch?v=kahRTTTqmNI&index=9&t=0s&list=LLkjARtFaH_-TgzJJD3TPUfg "Opens the Youtube")- Provides the guide for the Full Stack Web Development.
+1. [W3schools](https://www.w3schools.com/ "Opens the W3schools website") - A popular website to learn the latest web technologies
+1. [FreeCodeCamp](https://medium.freecodecamp.org/ "Opens Free Code camp Website") - A free learning platform recommended for learning Web Development.
