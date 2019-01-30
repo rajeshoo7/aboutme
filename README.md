@@ -29,10 +29,10 @@ The following tools are required to publish a repo with GitHub pages
 - [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html "Opens the Notepad Software page to dowload") - A powerful text editor.
 
 The following languages recommended for the web developement
-- MarkDown - a light weight markup language for web development
-- HTML - Hypertext Markup Language
-- CSS - Cascading Style Sheets
-- JavaScript - Scripting Language 
+1. [MarkDown](https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/ "Opens the guide for markdown") - a light weight markup language for web development
+1. [HTML](https://www.w3schools.com/html/ "Opens the HTML") - Hypertext Markup Language
+1. [CSS](https://www.w3schools.com/css/ "Opens the CSS in w3 schools") - Cascading Style Sheets
+1. [JavaScript](https://www.javascript.com/ "Opens the Java Script Page") - Scripting Language 
 
 ## Recommended Resources
 
