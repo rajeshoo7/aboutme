@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    
+                <link rel="stylesheet" type="text/css" href="STYLES.CSS">
+
+                <div class="Navigation_Bar">
+                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="converter.html">Converter</a>
+                </div>
+            
+</head>
+
+<body background="Background.JPG" class="bc">
+                <h1>Kilometre To Mile Converter</h1>
+                <p>Type Kilometer value to Convert to Mile and hit Enter</p>                
+                <p>
+                  <label>Kilometers</label>
+                  <input id="kMinput" type="number" placeholder="Kilometer" oninput="KmileConverter(this.value)" onchange="KmileConvert(this.value)">
+                </p>
+                <p>Miles: <span id="outputMiles"></span></p>                
+                <script>
+                function KmileConvert(valNum) {
+                  document.getElementById("outputMiles").innerHTML=valNum*0.621371;
+                }
+                </script>
+
+</body>
+
+<footer>
+    &copy; 2019 Rajesh Kammari
+  </footer>
+                
+
+
+</html>
