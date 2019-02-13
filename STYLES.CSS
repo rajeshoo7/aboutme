@@ -24,14 +24,17 @@ img
     "footer footer footer";
 }
 
-.bg
+.bg,.bc
 {
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-
+.table
+{
+    padding-top: 3rem;
+}
 
 .title
 {
@@ -54,29 +57,31 @@ img
 .contnt
 {
     grid-area: contnt;
+    padding-inline-start: 1rem;
 }
 .footer
 {
     grid-area: footer;
 }
+.grid
+{
+    background-image: url(Background.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-.grid div:nth-child(even)
+/* .grid div:nth-child(even)
 {
     background-color: rgb(0, 247, 255);
 }
 .grid div:nth-child(odd)
 {
     background-color: coral;
-}
+} */
 .Navigation_Bar
 {
     
@@ -110,12 +115,13 @@ width: 100%;
 }
 .ff
 {
-    padding-top: 3rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
 
 }
 .bc
 {
-    padding-top: 1rem;
+    padding-top: 3rem;
 
 }
 #hd
@@ -129,4 +135,8 @@ width: 100%;
     font-family: cursive;
     color: crimson;
 
+}
+.foot
+{
+    padding-top: 25rem;
 }
