@@ -1,0 +1,64 @@
+
+
+  .container-fluid{
+      /* padding:6em; */
+      /* background-image: url("http://images2.fanpop.com/image/photos/9100000/Marley-Me-marley-and-me-9187446-1024-576.jpg"); */
+      /* background-image: url(Background.JPG); */
+      /* background-image: url("https://m.media-amazon.com/images/M/MV5BMTc0MDA3MzI5Ml5BMl5BanBnXkFtZTcwNzE5MjYwMg@@._V1_.jpg"); */
+       /* background-image: url(Photo.jpg);   */
+      height: 100%;
+      position: relative;
+      opacity: 0.85;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+       /* background-color:white;  */
+           
+  }
+
+  img
+{
+    border-radius: 50%;
+    
+    
+}
+.header
+{
+  padding-left: 25rem;
+}
+/* #set
+{
+  background-color: whitesmoke;
+  border-radius: 25px;
+  margin: 0.25px 0.50px ;
+  /* padding: 0.2rem; */
+/* }
+#set2
+{
+  background-color: whitesmoke;
+  border-radius: 25px;
+  
+} */ 
+/* 
+body {
+  padding-top: 5rem;
+} */
+/*hi*/
+body, html {
+  height: 100%;
+  background-size: 100%;
+  
+}
+
+.video-wrapper {
+  width: 100%;
+  background-color:#3C5A99;
+}
+
+section{
+  margin: 1rem;
+  padding: 2rem;
+  background-color: #3C5A99;
+  border-radius: 2em;
+}
