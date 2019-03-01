@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Area Calculator</title>
+  <link rel="stylesheet" href="STYLES.CSS">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #3C5A99;">
+        <a class="navbar-brand" href="#">Rajesh Kammari</a>
+        
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="converter.html">Converter</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="app.html">Application</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="qUnitt.html">qUnit</a>
+                      </li>
+
+
+          </ul>
+        </div>
+      </nav>
+      
+      
+      <main class="container-fluid">
+
+    <h1>Area Calculator</h1>
+    <h3>Give base and height as Inputs to display the area of a rectangle</h3>
+
+    <p>Enter the base value:
+      <input id="base" type="number" value="2">
+    </p>
+
+    <p>Enter height value:
+      <input id="height" type="number" value="4">
+    </p>
+
+    <button id="clicker" class="btn btn-primary">Click me to get Area of rectangle!</button>
+   
+    <button id="ajaxcall" class="btn btn-primary" >Ajax Call for Chuck Noris Jokes</button>
+              
+    <p id="quote"></p>
+    <p id="result"></p>
+
+  </main>
+
+  <script>
+   
+    console.log('SCRIPT START')
+
+    console.log('Declare testable functions.....................')
+
+    function area(x, y) {
+      let result = x * y
+      localStorage.setItem('result', result);  
+      return result
+    }
+    console.log('Defined area=' + area)
+
+    console.log('Declare event listeners .......................')
+
+    document.getElementById('clicker').addEventListener('click', function () {
+      const i = parseInt(document.getElementById('base').value)
+      console.log('i=' + i)
+      const j = parseInt(document.getElementById('height').value)
+      console.log('j=' + j)
+      const ans = ' Your area of rectangle is ' + area(i, j) + '.'
+      document.getElementById('result').innerHTML = ans
+    })
+
+    window.onload = function() {
+    $("#ajaxcall").on("click",function(){ 
+
+      
+        $.ajax({ 
+            type:"GET", 
+            
+            url:"https://geek-jokes.sameerkumar.website/api",
+               success:function(data){ 
+              console.log(JSON.stringify(data))
+              
+              let content=data;
+              
+              
+              $("#quote").html(content);
+              
+            },
+            cache: false
+        }); 
+    });
+}
+    console.log('SCRIPT END')
+  </script>
+
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+
+
+  
+
+</div>
+
+
+</body>
+<footer class="container-fluid" style="color:red;">
+    <hr>        
+    &copy; 2019 Rajesh Kammari
+
+</footer>
+
+
+</html>
