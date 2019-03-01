@@ -30,7 +30,7 @@
 
 </head>
 
-<body>
+<body class="back">
     <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #3C5A99;">
         <a class="navbar-brand" href="#">Rajesh Kammari</a>
         
@@ -74,8 +74,8 @@
    
     <button id="ajaxcall" class="btn btn-primary" >Ajax Call for Chuck Noris Jokes</button>
               
-    <p id="quote"></p>
-    <p id="result"></p>
+    <h3 id="quote" style="color: deepskyblue;"></h3>
+    <h4 id="result"></h4>
 
   </main>
 
@@ -110,6 +110,7 @@
         $.ajax({ 
             type:"GET", 
             
+            
             url:"https://geek-jokes.sameerkumar.website/api",
                success:function(data){ 
               console.log(JSON.stringify(data))
@@ -140,14 +141,22 @@
   
 
 </div>
-
-
-</body>
 <footer class="container-fluid" style="color:red;">
-    <hr>        
-    &copy; 2019 Rajesh Kammari
+  <hr>        
+  &copy; 2019 Rajesh Kammari
 
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  
+
+</body>
+
 
 
 </html>
