@@ -19,7 +19,7 @@
     crossorigin="anonymous">
 
         <link rel="stylesheet" type="text/css" href="styles.css">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 
@@ -74,7 +74,7 @@
    
     <button id="ajaxcall" class="btn btn-primary" >Ajax Call for Chuck Noris Jokes</button>
               
-    <h3 id="quote" style="color: deepskyblue;"></h3>
+    <h3 id="quote" style="color: white;"></h3>
     <h4 id="result"></h4>
 
   </main>
@@ -103,16 +103,15 @@
       document.getElementById('result').innerHTML = ans
     })
 
-    window.onload = function() {
-    $("#ajaxcall").on("click",function(){ 
+    window.onload = function() 
+    {$("#ajaxcall").on("click",function(){ 
 
-      
         $.ajax({ 
-            type:"GET", 
-            
-            
-            url:"https://geek-jokes.sameerkumar.website/api",
-               success:function(data){ 
+
+            type:"GET",     
+            url: "https://geek-jokes.sameerkumar.website/api",
+               success: function(data)
+               { 
               console.log(JSON.stringify(data))
               
               let content=data;
@@ -120,22 +119,22 @@
               
               $("#quote").html(content);
               
-            },
+               },
             cache: false
         }); 
     });
 }
     console.log('SCRIPT END')
-  </script>
+  // </script>
 
-  <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+   <!-- JQuery -->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+ / <!-- Bootstrap tooltips -->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script> -->
+   <!-- Bootstrap core JavaScript -->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script> -->
+   <!-- MDB core JavaScript -->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script> -->
 
 
   
@@ -147,13 +146,13 @@
 
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
-  
+   -->
 
 </body>
 
