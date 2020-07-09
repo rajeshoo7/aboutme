@@ -48,5 +48,5 @@ Masters of Science in Applied Computer Science
 
 NorthWest Missouri State University
 
-![MyPicture](/myPhoto.png)
+![MyPicture](/https://images.takeshape.io/eec0d9cd-dc81-4ba8-ac20-50da147f43d2/dev/d630aa84-9e25-4afb-8c98-3ce6735fedc5/TLK-PRINT-USE-013_DP_0040_comp_v0703_right_SRGB.1145%20(1).jpg?auto=compress%2Cformat)
 
